@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAMES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/abc.ico">
+</head>
+<body>
+    <div class="main">
+        <h1 class="headline">Check your relationship here...</h1>
+        <form action="#" method="post">
+            <div class="text">
+                <img class="m user"  src="images/man.png" alt="" srcset="">
+                <input class="inp" id="m" type="text" name="Yourname" id="" placeholder="Enter your name" autocomplete="off" pattern=".{9,}" required>
+            </div>
+            <div class="text">
+                <img class="w user" src="images/woman.png" alt="">
+                <input class="inp" id="f" type="text" name="Partnername" id="" placeholder="Enter partner's name" required autocomplete="off">
+            </div>
+            <div>
+                <button class="btn" type="button">Check</button>
+                <input class="reset" type="reset" value="Reset" onclick="rest()">
+            </div>
+        </form>
+        
+    </div>
+    <div class="last">
+        <p class="result"></p>
+        <h2 class="abc"></h2>
+    </div>
+ <script src="index.js"></script>   
+</body>
+</html>

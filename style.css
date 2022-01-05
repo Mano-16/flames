@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Poppins&family=Sacramento&family=Yellowtail&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    background: url(images/back.jpg) no-repeat;
+    background-size: cover;
+}
+.main{
+    position:absolute;
+    top:45%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+}
+.user{
+    width: 40px;
+    float: left;
+    padding-right: 5px;
+}
+.text{
+    margin: 40px;
+    border-bottom: dotted white;
+    width: 250px;
+}
+.inp{
+    padding: 15px;
+    border: none;
+    background: none;
+    outline: none;
+    width: 200px;
+    font-size: 18px;
+}
+.btn{
+    background-image: linear-gradient(to right, red , yellow);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 38px;
+    width: 80px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.reset{
+    background-image: linear-gradient(to right, green , blue);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 60px;
+    width: 80px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.headline{
+    font-size: 70px;
+    font-family: sacramento;
+    word-spacing: 5px;
+    color:#FFA400;
+    text-shadow: -1px -1px 0 wheat, 1px -1px 0 black, -1px 1px 0 wheat, 1px 1px 0 black;
+}
+.last{
+    position: absolute;
+    margin-left:2%;
+    margin-top: 2%;
+}
+.abc{
+    font-family: merriweather;
+    margin-top: 145px;
+    margin-left: 212px;
+    text-shadow: -1px -1px 0 burlywood, 1px -1px 0 wheat, -1px 1px 0 wheat, 1px 1px 0 wheat;
+    letter-spacing: 2px;
+}
+.result{
+    font-size: 40px;
+    font-family: yellowtail;
+    color: #FFF1BD;
+}
